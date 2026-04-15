@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>About Ornexa</title>
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="../css/about.css">
 </head>
 <body>
-
+	<%@ include file="Header.jsp" %>
     <div class="pageBlur"></div>
 
     <div class="mainSection">
@@ -86,6 +86,7 @@
             </div>
         </section>
     </div>
+	<%@ include file="footer.jsp" %>
 
 </body>
 </html>
