@@ -1,0 +1,154 @@
+/* Container Layout */
+.checkout-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkout-header {
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+
+/* Address Styling */
+.address-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.address-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.location-icon {
+    font-size: 24px;
+}
+
+.edit-link {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Maroon Product Card */
+.product-card {
+    background-color: #7a3036;
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.product-info-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.product-text h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.8rem;
+}
+
+.price-val {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+/* Fix for the Quantity Box */
+.quantity-box {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    gap: 10px;
+    float: right;
+}
+
+.qty-btn {
+    width: 25px;
+    height: 35px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#qty-number {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.product-guarantee {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Order Details */
+.order-details h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.divider {
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 15px 0;
+}
+
+.total-row {
+    font-size: 1.3rem;
+}
+
+/* Proceed Button */
+.action-container {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.proceed-btn {
+    background-color: #7a3036;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.proceed-btn:hover {
+    background-color: #5a2328;
+}
