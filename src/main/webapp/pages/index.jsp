@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="<%=request.getContextPath() %>/css/home_page.css">
 </head>
 <body>
+	<%@ include file="Header.jsp" %>
  <div class="body1">
         <div class="container1">
             <div class="left_image">
@@ -123,7 +124,7 @@
             <div class="group">
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
-                    <h3>ABSOLUTELY LOVE IT!</h3>
+                    <h3>ABSOLUTELY LOVE IT!</h3><br>
                     <p>This piece instantly became my 
                         favorite. The design is so 
                         minimal yet elegant, and it goes 
@@ -134,7 +135,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ☆</p>
-                    <h3>GREAT BUT SLIGHT DELAY</h3>
+                    <h3>GREAT BUT SLIGHT DELAY</h3><br>
                     <p>The product quality is really
                         impressive and feels premium.
                         The only issue was the delivery
@@ -145,7 +146,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
-                    <h3>JUST PERFECT!</h3>
+                    <h3>JUST PERFECT!</h3><br>
                     <p>I was honestly surprised by 
                         how beautiful this turned out 
                         to be. The finishing is neat, and
@@ -156,7 +157,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
-                    <h3>SIMPLY ELEGANT</h3>
+                    <h3>SIMPLY ELEGANT</h3><br>
                     <p>I really appreciate the simple 
                         yet classy design. It’s lightweight,
                         comfortable, and adds just the
@@ -167,7 +168,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ☆</p>
-                    <h3>VERY NICE QUALITY</h3>
+                    <h3>VERY NICE QUALITY</h3><br>
                     <p>The material feels durable 
                         and well-made. The shine 
                         and finishing are impressive
@@ -178,7 +179,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
-                    <h3>HIGHLY RECOMMENDED</h3>
+                    <h3>HIGHLY RECOMMENDED</h3><br>
                     <p>This exceeded my expectations
                         in every way. The detailing is
                         beautiful, and it looks even
@@ -192,7 +193,7 @@
             <div aria-hidden class="group">
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
-                    <h3>ABSOLUTELY LOVE IT!</h3>
+                    <h3>ABSOLUTELY LOVE IT!</h3><br>
                     <p>This piece instantly became my 
                         favorite. The design is so 
                         minimal yet elegant, and it goes 
@@ -203,7 +204,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ☆</p>
-                    <h3>GREAT BUT SLIGHT DELAY</h3>
+                    <h3>GREAT BUT SLIGHT DELAY</h3><br>
                     <p>The product quality is really
                         impressive and feels premium.
                         The only issue was the delivery
@@ -214,7 +215,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
-                    <h3>JUST PERFECT!</h3>
+                    <h3>JUST PERFECT!</h3><br>
                     <p>I was honestly surprised by 
                         how beautiful this turned out 
                         to be. The finishing is neat, and
@@ -225,7 +226,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
-                    <h3>SIMPLY ELEGANT</h3>
+                    <h3>SIMPLY ELEGANT</h3><br>
                     <p>I really appreciate the simple 
                         yet classy design. It’s lightweight,
                         comfortable, and adds just the
@@ -236,7 +237,7 @@
                 </div>
                 <div class="card">
                     <p>⭐ ⭐ ⭐ ⭐ ☆</p>
-                    <h3>VERY NICE QUALITY</h3>
+                    <h3>VERY NICE QUALITY</h3><br>
                     <p>The material feels durable 
                         and well-made. The shine 
                         and finishing are impressive
@@ -246,7 +247,7 @@
                         Rohit on Oct 11, 2025</p>
                 </div>
                 <div class="card">
-                    <p>⭐ ⭐ ⭐ ⭐ ⭐</p>
+                    <p>⭐ ⭐ ⭐ ⭐ ⭐</p><br>
                     <h3>HIGHLY RECOMMENDED</h3>
                     <p>This exceeded my expectations
                         in every way. The detailing is
@@ -261,6 +262,8 @@
         </div>
         </div>
     </div>
+    	<%@ include file="footer.jsp" %>
+    
 </body>
 <script src="./index.js"></script>
 </html>

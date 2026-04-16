@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="<%=request.getContextPath() %>/css/product.css">
 </head>
 <body>
+<%@ include file="Header.jsp" %>
 <div class="container2">
 
         <div class="top_row">
@@ -159,6 +160,8 @@
         </div>
 
     </div>
+    	<%@ include file="footer.jsp" %>
+    
 
 </body>
 <script src="product.js"></script>
