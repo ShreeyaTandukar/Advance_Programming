@@ -212,11 +212,12 @@ body {
 .qty-btn {
     width: 25px;
     height: 35px;
-    background-color: #f0f0f0;
-    border: 1px solid #999;
-    border-radius: 4px;
-    cursor: pointer;
+    border: none;
+    background-color: white;
     font-weight: bold;
+    
+    
+   
 }
 
 #qty-number {
@@ -240,7 +241,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
-    font-weight: bold;
+    
     font-size: 1.1rem;
 }
 

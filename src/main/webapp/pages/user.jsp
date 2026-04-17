@@ -20,7 +20,7 @@
         <div class="profile-content">
             <div class="profile-avatar">
                 <div class="avatar-circle">
-                    <span class="user-icon">&#128100;</span>
+                   
                 </div>
             </div>
 
@@ -31,7 +31,7 @@
                 </div>
                 <div class="detail-row">
                     <span class="label">Name:</span>
-                    <span class="value">Ananyaa Udas</span>
+                    <span class="value">Username</span>
                 </div>
                 <div class="detail-row">
                     <span class="label">Phone Number:</span>

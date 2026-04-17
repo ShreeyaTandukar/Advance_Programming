@@ -68,7 +68,7 @@
         </div>
 
         <div class="action-container">
-            <button class="proceed-btn">Proceed To Pay</button>
+            <button class="proceed-btn">Confirm</button>
         </div>
     </main>
 
