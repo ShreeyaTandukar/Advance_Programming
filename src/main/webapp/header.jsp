@@ -7,8 +7,10 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="<%=request.getContextPath()%>/css/header.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
+
 <header class="header_section">
   <div class="container">
     <nav class="navbar">
@@ -23,7 +25,7 @@
           <a class="nav-link" href="#">Our Collection</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.jsp">About Us</a>
+          <a class="nav-link" href="#">About Us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
@@ -38,12 +40,11 @@
         </div>
 
         <div class="icon-wrapper">
-          <a class="fa-regular fa-heart icon" href="cart.jsp"></a>
+          <i class="fa-regular fa-heart icon"></i>
         </div>
 
         <div class="icon-wrapper cart">
-          <a class="fa-solid fa-cart-shopping icon" href="cart.jsp"></a>
-          
+          <i class="fa-solid fa-cart-shopping icon"></i>
         </div>
 
         <div class="icon-wrapper">
