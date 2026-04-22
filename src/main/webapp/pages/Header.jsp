@@ -25,7 +25,7 @@
           <a class="nav-link" href="#">Our Collection</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="about.jsp">About Us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
@@ -40,11 +40,12 @@
         </div>
 
         <div class="icon-wrapper">
-          <i class="fa-regular fa-heart icon"></i>
+          <a class="fa-regular fa-heart icon" href="cart.jsp"></a>
         </div>
 
         <div class="icon-wrapper cart">
-          <i class="fa-solid fa-cart-shopping icon"></i>
+          <a class="fa-solid fa-cart-shopping icon" href="cart.jsp"></a>
+          
         </div>
 
         <div class="icon-wrapper">
