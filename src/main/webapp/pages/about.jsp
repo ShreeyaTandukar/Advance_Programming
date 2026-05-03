@@ -12,7 +12,7 @@
 
     <div class="mainSection">
         <section class="about">
-            <h1 class="mainTitle">About Ornexa</h1>
+            <h1 class="mainTitle">About Ornexa</h1><br>
             <h2 class="subTitle">Welcome to Ornexa, where elegance meets tradition.</h2>
             <div class="paragraph">
             	<p>Welcome to Ornexa, where jewellery is a statement of individuality, culture, and style. At Ornexa, our jewellery is carefully crafted to combine the beauty of contemporary jewellery with the richness of traditional jewellery, so there is something unique for everyone in our collection.</p>
@@ -64,10 +64,10 @@
                 <div class="memberCard">
                     <img src="Sakshi Agrawal.jpeg" alt="Sakshi" class="memberPhoto">
                     <h3>Sakshi Agrawal</h3>
-                    <p>Frontend Developer</p>
+                    <p>Backend Developer</p>
                     <div class="infoPopup">
-                        <h4 class="hoverTitle">Sakshi Agrawal-Frontend Developer</h4>
-                        <p class="hoverDescription">Turns the design into a reality. She converts intricate designs into efficient codes that make Ornexa look visually impressive and fully functional across any device.</p>
+                        <h4 class="hoverTitle">Sakshi Agrawal-Backend Developer</h4>
+                        <p class="hoverDescription">Takes care of the back-end programming. He is responsible for managing the database, server, and other back-end functions that make the Ornexa system function properly.</p>
                         
                     </div>
                 </div>
@@ -75,10 +75,10 @@
                 <div class="memberCard">
                     <img src="Abhishek Kumar Shah.jpeg" alt="Abhishek" class="memberPhoto">
                     <h3>Abhishek Kumar Shah</h3>
-                    <p>Backend Developer</p>
+                    <p>Frontend Developer</p>
                     <div class="infoPopup">
-                        <h4 class="hoverTitle">Abhishek Kumar Shah-Backend Developer</h4>
-                        <p class="hoverDescription">Takes care of the back-end programming. He is responsible for managing the database, server, and other back-end functions that make the Ornexa system function properly.</p>
+                        <h4 class="hoverTitle">Abhishek Kumar Shah-Frontend Developer</h4>
+                        <p class="hoverDescription">Turns the design into a reality. She converts intricate designs into efficient codes that make Ornexa look visually impressive and fully functional across any device.</p>
                         
                     </div>
                 </div>

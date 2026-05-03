@@ -74,7 +74,7 @@
                 <tbody>
                     <tr>
                         <td>1</td><td>Diamond Ring</td><td>Rs 50,000</td>
-                        <td><img src="images/sample.jpg" alt="Diamond Ring"></td>
+                        <td><img src="men-diamondring.png" alt="Diamond Ring"></td>
                         <td><button>Edit</button> <button>Delete</button></td>
                     </tr>
                 </tbody>

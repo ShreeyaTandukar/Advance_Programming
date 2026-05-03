@@ -5,68 +5,48 @@
 <head>
 <meta charset="UTF-8">
 <title>Login</title>
-<link rel="stylesheet"  href="../css/stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
 </head>
 <body>
-    <div class="login-box">
+    <video autoplay muted loop id="bg-video">
+        <source src="../videos/background2.mp4" type="video/mp4">
+    </video>
+     <a href="index.jsp" class="backbutton">
+        <i class="fas fa-arrow-left"></i> Back
+    </a>
 
-        <div class="login-image">
-            <img id="slider" src="image1.png" alt="jewellery">
-        </div>
+    <div class="login-form">
+    
+        <h2>Login</h2>
 
-        <div class="login-form">
-            <h2>Login</h2>
+        <form>
+            <div class="row">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="row">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
 
-            <form>
-                <div class="row">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" required>
+            <div class="row">
+                <div class="forgot-button">
+                    <p>Forgot Password?</p>
                 </div>
+            </div>
 
-                <div class="row">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
+            <div class="row">
+                <button type="submit" class="login-button">Login</button>
+            </div>
 
-                <div class="row">
-                    <div class="forgot-button">
-                        <p>Forgot Password?</p>
-                    </div>
+            <div class="row">
+                <div class="register-button">
+                    <p>Don't have an account? <a href="registervideo.jsp">Register</a></p>
                 </div>
-
-                <div class="row">
-                    <button type="submit" class="login-button">Login</button>
-                </div>
-
-                <div class="row">
-                    <div class="register-button">
-                        <p>Don't have an account? <a href="register.jsp">Register</a></p>
-                    </div>
-                </div>
-            </form>
-        </div>
+            </div>
+        </form>
     </div>
-	<script>
-		const images = ["image1.png", "image2.png", "image3.png", "image4.png"];
-		
-		const slider = document.getElementById("slider");
-		
-		let index = 0;
-		let direction = 1; 
-		
-		function changeImage() {
-		    slider.src = images[index];
-		
-		    index += direction;
-		
-		    if (index === images.length - 1 || index === 0) {
-		        direction = direction * -1;
-		    }
-		}
-		
-		changeImage();
-		
-		setInterval(changeImage, 3000);
-	</script>
+    
 </body>
 </html>

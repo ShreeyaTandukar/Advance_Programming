@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* --- 1. Variables & Global Reset --- */
+:root {
+    --maroon: #5D262B;
+    --dark-maroon: #441C20;
+    --bg-light: #F4F4F1;
+    --sidebar-white: #FDFDFB;
+    --text-muted: #8E8E8E;
+    --border-color: #ECECEC;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-light);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* --- 2. Layout Structure --- */
+.admin-layout {
+    display: flex;
+    width: 100%;
+}
+
+/* --- 3. Sidebar Styling --- */
+.sidebar {
+    width: 260px;
+    background: var(--sidebar-white);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.sidebar-header { text-align: center; margin-bottom: 40px; }
+.sidebar-logo { width: 110px; margin-bottom: 10px; }
+.brand-name { font-size: 14px; font-weight: 700; color: var(--maroon); display: block; }
+.brand-sub { font-size: 10px; color: var(--text-muted); letter-spacing: 1px; text-transform: uppercase; }
+
+.nav-menu .nav-item {
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    transition: 0.2s;
+}
+
+.nav-item.active {
+    background: #FFF;
+    color: var(--maroon);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.add-product-btn {
+    margin: 30px 0;
+    padding: 12px;
+    background: var(--maroon);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sidebar-footer { margin-top: auto; padding-top: 20px; border-top: 1px solid #f0f0f0; }
+.footer-item { font-size: 11px; padding: 10px; color: #666; display: flex; align-items: center; gap: 10px; font-weight: 600; cursor: pointer; }
+
+/* --- 4. Main Content Area --- */
+.main-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+.header h1 { font-size: 24px; font-weight: 800; color: #111; }
+.header p { font-size: 14px; color: var(--text-muted); }
+
+.date-filter { background: #fff; padding: 10px 15px; border-radius: 10px; border: 1px solid #eee; display: flex; align-items: center; gap: 10px; }
+.btn-maroon { background: var(--maroon); color: #fff; border: none; padding: 8px 18px; border-radius: 6px; cursor: pointer; font-weight: 600; }
+
+/* --- 5. Stats Cards --- */
+.stats-grid { display: flex; gap: 20px; margin-bottom: 35px; }
+.stat-card { background: #fff; padding: 25px; border-radius: 15px; flex: 1; border: 1px solid #eee; }
+.stat-card h3 { font-size: 24px; margin: 8px 0; font-weight: 700; }
+.green { color: #27ae60; font-weight: bold; font-size: 13px; }
+.red { color: #eb4d4b; font-weight: bold; font-size: 13px; }
+.border-red { border-left: 5px solid #eb4d4b; }
+
+/* --- 6. Charts & Boxes --- */
+.visuals-grid { display: flex; gap: 25px; margin-bottom: 35px; }
+.visual-box { background: #fff; padding: 25px; border-radius: 15px; border: 1px solid #eee; flex: 1; min-height: 350px; display: flex; flex-direction: column; }
+.revenue-wide { flex: 2; }
+.box-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
+
+.image-container { flex: 1; background: #fafafa; border-radius: 10px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.image-container img { max-width: 100%; height: auto; object-fit: contain; }
+
+.tabs { display: flex; gap: 15px; }
+.tab { font-size: 12px; cursor: pointer; color: #bbb; }
+.tab.active { color: var(--maroon); border-bottom: 2px solid var(--maroon); font-weight: 700; }
+
+/* --- 7. Global Ledger Table --- */
+.ledger-container { background: #fff; padding: 30px; border-radius: 15px; border: 1px solid #eee; }
+.report-table { width: 100%; border-collapse: collapse; margin-top: 25px; }
+.report-table th { text-align: left; padding: 15px; background: #fdfbf7; font-size: 12px; color: var(--text-muted); text-transform: uppercase; }
+.report-table td { padding: 20px 15px; border-bottom: 1px solid #f9f9f9; font-size: 14px; }
+
+.status { padding: 5px 12px; border-radius: 4px; font-size: 10px; font-weight: 800; text-transform: uppercase; }
+.status.paid { background: #E8F5E9; color: #2E7D32; }
+.status.pending { background: #FFF3E0; color: #EF6C00; }
+.status.transit { background: #E3F2FD; color: #1976D2; }
+
+.bold { font-weight: 700; }
+.btn-outline { background: #fff; border: 1px solid var(--maroon); color: var(--maroon); padding: 10px 20px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+.btn-outline:hover { background: var(--maroon); color: #fff; }

@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+ <link rel="stylesheet"  href="../css/style.css">
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="../videos/background.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="register-box">
+        <div class="register-form">
+            <h2>Create Your Account</h2>
+            <p class="subtitle">Enter your details to get started</p>
+
+            <form action="${pageContext.request.contextPath} /register" method="post" enctype= "multipart/form-data" >
+                <div class="row">
+                    <div class="col">
+                        <label for="firstName">First Name</label> 
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="col">
+                        <label for="lastName">Last Name</label> 
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="username">Username</label> 
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="col">
+                        <label for="email">Email</label> 
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="phoneNumber">Phone Number</label> 
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                    <div class="col">
+                        <label for="dob">Date of Birth</label> 
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="password">Password</label> 
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="image">Image</label> 
+                        <input type="file" id="image" name="image" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <button type="submit" class="create">Create Account</button>
+                </div>
+
+                <div class="login-button">
+                    <p>Already have an account? <a href="Login.jsp">Login</a></p>
+                </div>		
+            </form>
+        </div>
+    </div>
+</body>
+</html>

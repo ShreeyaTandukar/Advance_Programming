@@ -30,10 +30,12 @@
                 <img src="desc image.png" alt="Kalli" class="product-img">
                 <div class="product-text">
                     <h2>Kalli</h2>
+                    <p> High-grade, solid silver</p>
+                    <p>(often traditionally made from melted silver coins or high-purity sterling)</p> <br>
                     <p>Exchange Within 7 Days</p>
                 </div>
                 <div class="product-price">
-                    <p class="price-val"><u>Rs.15000</u></p>
+                    <p class="price-val">Rs.15000</p>
                     <div class="quantity-box">
                         <button class="qty-btn" onclick="decrement()">-</button>
                         <span id="qty-number">1</span>
